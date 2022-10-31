@@ -61,19 +61,19 @@ Train an id encoder with unsupervised setting. We use [JVTC](https://github.com/
 
 
 ## **Stage II: GAN Training**  
-Before training, make sure the stage is 2 and the path is correct in  
+Before training, make sure the stage is 2 and the path is correct in:  
 ```
 configs/config.yaml  
 ```
-Make sure the setting is correct and run
+Make sure the setting is correct and run:
 ```
 examples/training.py  
 ```
 
 ## **Stage III: Final training**  
-GAN and contrastive model training
+GAN and contrastive model training.
 
-Make sure the stage is 3 and run
+Make sure the stage is 3 and run:
 ```
 examples/training.py  
 ```
