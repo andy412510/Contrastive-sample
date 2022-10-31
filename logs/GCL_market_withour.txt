@@ -1,0 +1,271 @@
+=> Market1501 loaded
+Dataset statistics:
+  ----------------------------------------
+  subset   | # ids | # images | # cameras
+  ----------------------------------------
+  train    |   751 |    12936 |         6
+  query    |   750 |     3368 |         6
+  gallery  |   751 |    15913 |         6
+  ----------------------------------------
+=> Loaded checkpoint '/home/andy/ICASSP_data/pretrain/JVTC/pretrain.pth'
+Finish E_c init.
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/net_G_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/net_E_pose_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/net_Di_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_b1_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_b2_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_b3_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_b4_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_w1_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_w2_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_w3_best.pth'
+=> Loaded checkpoint '/home/andy/ICASSP_data/checkpoint/mlp_w4_best.pth'
+Extract Features: [50/102]	Time 0.118 (0.116)	Data 0.000 (0.006)	
+Extract Features: [100/102]	Time 0.070 (0.095)	Data 0.000 (0.003)	
+Memory initialized.
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.274295330047607
+Clustering criterion: eps: 0.600
+==> Statistics for epoch 0: 693 clusters
+Extract Features: [50/151]	Time 0.070 (0.080)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.074)	Data 0.000 (0.003)	
+Mean AP: 72.9%
+CMC Scores:
+  top-1          88.7%
+  top-5          95.6%
+  top-10         97.3%
+best mAP in epoch. 0
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.494211435317993
+==> Statistics for epoch 1: 655 clusters
+Extract Features: [50/151]	Time 0.070 (0.077)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.074)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.002)	
+Mean AP: 74.4%
+CMC Scores:
+  top-1          88.9%
+  top-5          96.1%
+  top-10         98.0%
+best mAP in epoch. 1
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.574873685836792
+==> Statistics for epoch 2: 643 clusters
+Extract Features: [50/151]	Time 0.070 (0.079)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 75.6%
+CMC Scores:
+  top-1          89.2%
+  top-5          96.1%
+  top-10         97.6%
+best mAP in epoch. 2
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.447646856307983
+==> Statistics for epoch 3: 655 clusters
+Extract Features: [50/151]	Time 0.070 (0.079)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.074)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.071 (0.073)	Data 0.000 (0.003)	
+Mean AP: 75.0%
+CMC Scores:
+  top-1          89.5%
+  top-5          96.0%
+  top-10         97.5%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.599316596984863
+==> Statistics for epoch 4: 655 clusters
+Extract Features: [50/151]	Time 0.120 (0.079)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.6%
+CMC Scores:
+  top-1          90.4%
+  top-5          96.2%
+  top-10         97.9%
+best mAP in epoch. 4
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.520009756088257
+==> Statistics for epoch 5: 659 clusters
+Extract Features: [50/151]	Time 0.071 (0.079)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.0%
+CMC Scores:
+  top-1          89.8%
+  top-5          96.4%
+  top-10         97.9%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.495895862579346
+==> Statistics for epoch 6: 660 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.074)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.071 (0.073)	Data 0.000 (0.002)	
+Mean AP: 76.6%
+CMC Scores:
+  top-1          90.3%
+  top-5          96.1%
+  top-10         97.6%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.04060697555542
+==> Statistics for epoch 7: 653 clusters
+Extract Features: [50/151]	Time 0.071 (0.079)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.074)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 75.9%
+CMC Scores:
+  top-1          89.7%
+  top-5          96.0%
+  top-10         97.6%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.395311832427979
+==> Statistics for epoch 8: 664 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 75.0%
+CMC Scores:
+  top-1          89.5%
+  top-5          95.6%
+  top-10         97.4%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.53364372253418
+==> Statistics for epoch 9: 666 clusters
+Extract Features: [50/151]	Time 0.070 (0.079)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 75.6%
+CMC Scores:
+  top-1          89.0%
+  top-5          95.6%
+  top-10         97.4%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.214001417160034
+==> Statistics for epoch 10: 672 clusters
+Extract Features: [50/151]	Time 0.070 (0.079)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.3%
+CMC Scores:
+  top-1          89.5%
+  top-5          96.1%
+  top-10         97.6%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.437251567840576
+==> Statistics for epoch 11: 666 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.071 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.1%
+CMC Scores:
+  top-1          89.5%
+  top-5          96.1%
+  top-10         97.8%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.353965282440186
+==> Statistics for epoch 12: 670 clusters
+Extract Features: [50/151]	Time 0.070 (0.079)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.5%
+CMC Scores:
+  top-1          89.6%
+  top-5          96.0%
+  top-10         97.5%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.349878072738647
+==> Statistics for epoch 13: 670 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.1%
+CMC Scores:
+  top-1          89.8%
+  top-5          95.9%
+  top-10         97.5%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.40354061126709
+==> Statistics for epoch 14: 673 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.071 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.9%
+CMC Scores:
+  top-1          90.1%
+  top-5          96.0%
+  top-10         97.5%
+best mAP in epoch. 14
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.427417278289795
+==> Statistics for epoch 15: 668 clusters
+Extract Features: [50/151]	Time 0.070 (0.079)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.4%
+CMC Scores:
+  top-1          89.8%
+  top-5          95.6%
+  top-10         97.4%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.415801048278809
+==> Statistics for epoch 16: 671 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.074)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.3%
+CMC Scores:
+  top-1          89.7%
+  top-5          96.0%
+  top-10         97.4%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.345050811767578
+==> Statistics for epoch 17: 667 clusters
+Extract Features: [50/151]	Time 0.070 (0.079)	Data 0.000 (0.008)	
+Extract Features: [100/151]	Time 0.071 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 75.7%
+CMC Scores:
+  top-1          89.7%
+  top-5          95.6%
+  top-10         97.4%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.323233842849731
+==> Statistics for epoch 18: 670 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.074)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.002)	
+Mean AP: 76.6%
+CMC Scores:
+  top-1          90.1%
+  top-5          95.9%
+  top-10         97.2%
+==> Create pseudo labels for unlabeled data
+Computing jaccard distance...
+Jaccard distance computing time cost: 8.379667043685913
+==> Statistics for epoch 19: 669 clusters
+Extract Features: [50/151]	Time 0.070 (0.078)	Data 0.000 (0.007)	
+Extract Features: [100/151]	Time 0.070 (0.075)	Data 0.000 (0.004)	
+Extract Features: [150/151]	Time 0.070 (0.073)	Data 0.000 (0.003)	
+Mean AP: 76.0%
+CMC Scores:
+  top-1          89.3%
+  top-5          95.8%
+  top-10         97.3%
