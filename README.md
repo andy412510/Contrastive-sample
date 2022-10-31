@@ -71,7 +71,7 @@ examples/training.py
 ```
 
 ## **Stage III: Final training**  
-- GAN and contrastive model training
+GAN and contrastive model training
 
 Make sure the stage is 3 and run
 ```
@@ -79,9 +79,7 @@ examples/training.py
 ```
 
 ## **Results**  
-- Experimental results  
-
-Please see log files for more details in our work.  
+Please see log files for more experimental result details in our work.  
 ```
 logs/xxx.txt  
 ```
